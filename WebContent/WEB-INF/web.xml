@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>create</servlet-name>
+    <servlet-class>controller.create</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>create</servlet-name>
+    <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>swsw</servlet-name>
+    <servlet-class>controller.swsw</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>swsw</servlet-name>
+    <url-pattern>/swsw</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>cryptography</servlet-name>
+    <servlet-class>controller.cryptography</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cryptography</servlet-name>
+    <url-pattern>/cryptography</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>swsw1</servlet-name>
+    <servlet-class>controller.swsw1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>swsw1</servlet-name>
+    <url-pattern>/swsw1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>addfilterword</servlet-name>
+    <servlet-class>controller.addfilterword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addfilterword</servlet-name>
+    <url-pattern>/addfilterword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>postcomments</servlet-name>
+    <servlet-class>controller.postcomments</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>postcomments</servlet-name>
+    <url-pattern>/postcomments</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>requestfriend</servlet-name>
+    <servlet-class>controller.requestfriend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>requestfriend</servlet-name>
+    <url-pattern>/requestfriend</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>updatefriend</servlet-name>
+    <servlet-class>controller.updatefriend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatefriend</servlet-name>
+    <url-pattern>/updatefriend</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>removefriend</servlet-name>
+    <servlet-class>controller.removefriend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>removefriend</servlet-name>
+    <url-pattern>/removefriend</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>postimage</servlet-name>
+    <servlet-class>controller.postimage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>postimage</servlet-name>
+    <url-pattern>/postimage</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>update</servlet-name>
+    <servlet-class>controller.update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <javaee:description></javaee:description>
+    <javaee:display-name>imageupload</javaee:display-name>
+    <servlet-name>imageupload</servlet-name>
+    <servlet-class>imageupload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>imageupload</servlet-name>
+    <url-pattern>/imageupload</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
